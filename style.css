@@ -45,6 +45,18 @@ h1 {
     font-size: 40px;
 }
 
+.btn {
+    position: absolute;
+    height: 52px;
+    top: 2px;
+    right: 0px;
+    color: #f7fafc;
+    padding: 12px 32px 8px;
+    background: #6415ff;
+    border-radius: 500px;
+    border: none;
+}
+
 /* 
 
 NAVBAR ↓
@@ -302,6 +314,12 @@ FEATURES ↓
     padding: 12px
 }
 
+.features__h1 {
+    font-size: 40px;
+    font-weight: bold;
+    padding: 20px;
+}
+
 .features__h2 {
     margin-bottom: 24px;
 }
@@ -318,7 +336,38 @@ QUALITY WORK ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
 }
+
+.quality__description {
+    display: flex;
+    flex-direction: column;
+}
+
+.quality__img--container {
+    width: 50%;
+}
+
+.quality__img {
+    width: 540px;
+    height: 480px;
+}
+
+.quality__tagline {
+    padding: 56px 0 72px 0;
+}
+
+.btn__quality {
+    position: relative;
+    height: 40px;
+    color: #f7fafc;
+    padding: 12px 32px 8px;
+    background: #6415ff;
+    border-radius: 500px;
+    border: none;
+}
+
+
 
 
 /* 
