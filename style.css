@@ -340,9 +340,8 @@ QUALITY WORK ↓
     align-items: center;
 }
 
-.quality__description {
-    display: flex;
-    flex-direction: column;
+.quality__description--container {
+    width: 50%;
 }
 
 .quality__img--container {
@@ -351,7 +350,6 @@ QUALITY WORK ↓
 
 .quality__img {
     width: 540px;
-    height: 480px;
 }
 
 .quality__tagline {
@@ -359,7 +357,6 @@ QUALITY WORK ↓
 }
 
 .btn__quality {
-    position: absolute;
     display: flex;
     height: 40px;
     color: #f7fafc;
