@@ -192,16 +192,21 @@ HEADER / ABOUT US ↓
 
 .header__row {
     display: flex;
-    flex-direction: column;
     align-items: center;
     justify-content: space-between;
+    width: 100%;
 }
 
-
+.header__description {
+    width: 40%;
+}
 
 .header__img {
-    display: flex;
     width: 60%;
+}
+
+.logo__strip {
+
 }
 
 .btn__header {
