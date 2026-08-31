@@ -278,6 +278,9 @@ FEATURES ↓
 }
 
 .features__icon--border {
+    display: flex;
+    align-items: center;
+    justify-content: center;
     border: 2px solid grey;
     border-radius: 999px;
     width: 20px;
@@ -286,7 +289,7 @@ FEATURES ↓
 }
 
 .features__img {
-    display: flex;
+    
 }
 
 .feat__li--container {
