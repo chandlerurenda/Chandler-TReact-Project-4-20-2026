@@ -273,6 +273,7 @@ FEATURES ↓
 .features__ul {
     list-style-type: none;
     display: flex;
+    flex-wrap: wrap;
     padding: 60px;
 }
 
@@ -290,7 +291,7 @@ FEATURES ↓
 
 .feat__li--container {
     display: flex;
-    padding-right: 40px;
+    padding: 40px;
     width: 33%
 }
 
