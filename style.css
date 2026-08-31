@@ -300,10 +300,6 @@ FEATURES ↓
     padding: 24px;
 }
 
-.features__img {
-    
-}
-
 .feat__li--container {
     display: flex;
     padding: 40px;
@@ -316,7 +312,7 @@ FEATURES ↓
 
 .features__h1 {
     font-size: 40px;
-    font-weight: bold;
+    font-weight: 900;
     padding: 20px;
 }
 
@@ -333,10 +329,15 @@ QUALITY WORK ↓
 
 
 #quality .row {
+    width: 100%;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.quality__row {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
 }
 
 .quality__description {
@@ -358,7 +359,8 @@ QUALITY WORK ↓
 }
 
 .btn__quality {
-    position: relative;
+    position: absolute;
+    display: flex;
     height: 40px;
     color: #f7fafc;
     padding: 12px 32px 8px;
