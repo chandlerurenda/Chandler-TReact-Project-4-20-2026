@@ -204,6 +204,11 @@ HEADER / ABOUT US ↓
 
 */
 
+.header__container {
+    margin-top: 60px;
+    margin-bottom: 72px;
+}
+
 
 .header__row {
     display: flex;
@@ -286,7 +291,8 @@ FEATURES ↓
 }
 
 .features__container {
-    padding: 80px 0;
+    margin-top: 24px;
+    margin-bottom: 24px
 }
 
 .features__ul {
@@ -334,6 +340,10 @@ QUALITY WORK ↓
 
 */
 
+.quality__container {
+    margin-top: 60px;
+    margin-bottom: 72px;
+}
 
 #quality .row {
     width: 100%;
@@ -349,6 +359,7 @@ QUALITY WORK ↓
 
 .quality__description--container {
     width: 50%;
+    padding-right: 48px;
 }
 
 .quality__img--container {
@@ -356,10 +367,11 @@ QUALITY WORK ↓
 }
 
 .quality__img {
-    width: 540px;
+    width: 28vw;
 }
 
 .quality__h1 {
+    font-weight: 900;
     margin-bottom: 32px;
 }
 
@@ -403,6 +415,72 @@ STEPS ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
+    width: 100%;
+}
+.steps__row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.steps__container {
+    margin-top: 90px;
+}
+
+.steps__img--container {
+    margin-top: 48px;
+    width: 50%
+}
+
+.steps__description--container {
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__img {
+    height: 24vh;
+}
+
+.steps__h1 {
+    font-weight: 900;
+    margin-bottom: 36px;
+}
+
+.steps__h3--title {
+    margin-bottom: 24px;
+}
+
+.steps__ul{
+    list-style-type: none;
+}
+
+.steps__description{
+    display: flex;
+    flex-direction: column;
+}
+
+.steps__li {
+    display: flex;
+    margin: 20px 0 20px 0;
+    
+}
+
+.steps__number {
+    display: flex;
+    align-items: center;
+    font-size: 32px;
+    
+}
+
+.steps__tagline {
+    font-size: 24px;
+    margin-left: 16px;
+}
+
+.steps__para {
+    display: flex;
+    flex-direction: column;
 }
 
 
