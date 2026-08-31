@@ -251,13 +251,20 @@ HEADER / ABOUT US ↓
 .btn__header {
     position: absolute;
     height: 52px;
-    top: 2px;
-    right: 0px;
+    top: 1px;
+    right: 3px;
     color: #f7fafc;
     padding: 12px 32px 8px;
     background: #6415ff;
     border-radius: 500px;
     border: none;
+    cursor: pointer;
+    transition: transform all 0.1s ease;
+}
+
+.btn__header:active {
+    background-color: #35088f;
+    transform: scale(.98);
 }
 
 
@@ -352,8 +359,17 @@ QUALITY WORK ↓
     width: 540px;
 }
 
+.quality__h1 {
+    margin-bottom: 32px;
+}
+
+.quality__h3 {
+    margin-bottom: 16px;
+}
+
 .quality__tagline {
-    padding: 56px 0 72px 0;
+    margin-bottom: 24px;
+    line-height: 1.5;
 }
 
 .btn__quality {
@@ -364,6 +380,13 @@ QUALITY WORK ↓
     background: #6415ff;
     border-radius: 500px;
     border: none;
+    cursor: pointer;
+    transition: transform all 0.1s ease;
+}
+
+.btn__quality:active {
+    background-color: #35088f;
+    transform: scale(.98);
 }
 
 
