@@ -30,13 +30,13 @@
             </figure>
           </div>
           <ul class="nav__links">
-            <li><a href="#about">About</a></li>
-            <li><a href="#blog">Blog</a></li>
-            <li><a href="#pricing">Pricing</a></li>
-            <li><a href="#contact">Contact Us</a></li>
-            <li><a href="#">Login</a></li>
-            <li><a href="#" class="nav__link--primary">Sign Up</a></li>
-          </ul>
+            <a href="#about" class="nav__link">About</a></li>
+            <a href="#blog" class="nav__link">Blog</a></li>
+            <a href="#pricing" class="nav__link">Pricing</a></li>
+            <a href="#contact" class="nav__link">Contact Us</a></li>
+            <a href="#" class="nav__link">Login</a></li>
+            <a href="#" class="nav__link--primary">Sign Up</a>
+        </ul>
           <button class="btn__menu" onclick="openMenu()">
             <svg
               xmlns="http://www.w3.org/2000/svg"
@@ -91,20 +91,16 @@
               <h1>
                 Beautiful React Templates <span class="purple">for you.</span>
               </h1>
-              <h3 class="header__tagline">
+              <p class="header__tagline">
                 Our templates are easy to setup, understand, and customize.
                 Fully modular components with a variety of pages and components.
-              </h3>
+              </p>
               <div class="email__input--container">
                 <input type="email" placeholder="Your E-mail Address" />
                 <button class="btn__header">Get Started</button>
               </div>
-              <figure class="logo__strip">
-                <img
-                  class="logo__strip--img"
-                  src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png"
-                />
-              </figure>
+              <p class="header__customers--title">OUR TRUSTED CUSTOMERS</p>
+                <img class="logo__strip--img" src="./assets/customers-logo-strip.680ac7c2e8ae28161d2c.png">
             </div>
             <figure class="header__img">
               <img
@@ -271,9 +267,7 @@
               <ul class="steps__ul">
                 <li class="steps__li">
                   <div class="steps__number--wrapper">
-                    <figure class="steps__number">
-                      <i class="fa-duotone fa-solid fa-1"></i>
-                    </figure>
+                    <div class="steps__number">01</div>
                   </div>
                   <div class="steps__description">
                     <h3 class="steps__tagline">Register</h3>
@@ -284,9 +278,7 @@
                 </li>
                 <li class="steps__li">
                   <div class="steps__number--wrapper">
-                    <figure class="steps__number">
-                      <i class="fa-duotone fa-solid fa-2"></i>
-                    </figure>
+                    <div class="steps__number">02</div>
                   </div>
                   <div class="steps__description">
                     <h3 class="steps__tagline">Download</h3>
@@ -298,9 +290,7 @@
                 </li>
                 <li class="steps__li">
                   <div class="steps__number--wrapper">
-                    <figure class="steps__number">
-                      <i class="fa-duotone fa-solid fa-3"></i>
-                    </figure>
+                    <div class="steps__number">03</div>
                   </div>
                   <div class="steps__description">
                     <h3 class="steps__tagline">Run</h3>
@@ -317,7 +307,17 @@
       </section>
       <section id="values">
         <div class="container">
-          <div class="row"><!--  -->Enter Values Section<!--  --></div>
+          <div class="row values__row">
+            <div class="values__description--container">
+            <h3 class="values__h3"><span class="purple">VALUES</span></h3>
+            <h1>We Always Abide By our <span class="purple">Principals</span></h1>
+            </div>
+            <div class="values__img--container">
+            <figure class="values__img">
+                <img src="./assets/prototype-illustration.21bc4b3f612a2f257c3d361067582485.svg">
+            </figure>
+            </div>
+          </div>
         </div>
       </section>
       <section id="pricing">
