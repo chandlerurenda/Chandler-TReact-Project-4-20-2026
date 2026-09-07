@@ -641,7 +641,6 @@ VALUES ↓
     width: 100%
 }
 
-
 .value {
     margin-top: 32px;
     margin-right: 32px;
@@ -656,7 +655,14 @@ VALUES ↓
     align-items: center;
 }
 
-.value__list {
+.value__name {
+    margin-left: 12px;
+    font-size: 14px;
+    font-weight: bold;
+    color: #243e63;
+}
+
+.values__list {
     display: flex;
     flex-direction: row;
     margin-left: 0px;
@@ -669,6 +675,10 @@ VALUES ↓
     margin-top: 16px;
     line-height: 1.625;
     color: #718096;
+}
+
+#values .btn {
+    margin-top: 48px;
 }
 
 
