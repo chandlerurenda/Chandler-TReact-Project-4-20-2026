@@ -428,12 +428,6 @@ QUALITY WORK ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
-}
-
-quality .row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     padding-left: 20px;
 }
 
@@ -523,79 +517,72 @@ STEPS ↓
     display: flex;
     justify-content: space-between;
     align-items: center;
-    width: 100%;
-}
-.steps__row {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
-.steps__container {
-    margin: 90px 0 90px 0;;
-}
-
-.steps__img--container {
+.steps__description,
+.steps__img--wrapper {
     width: 50%;
+}
+
+.steps__img--wrapper {
     margin-top: 12px;
     margin-bottom: 48px;
     padding-left: 16px;
 }
 
-.steps__description--container {
-    width: 50%;
-    display: flex;
-    flex-direction: column;
-}
 
 .steps__img {
     width: 100%;
 }
 
-.steps__h1 {
-    font-weight: 900;
-    margin-bottom: 8px;
+.steps__grid {
+    position: absolute;
+    bottom: -100px;
+    left: 50%;
+    transform: translateX(-50%);
+    width: 10rem;
+    height: 10rem;
+    opacity: 0.8;
+    z-index: -10;
+    color: rgb(100, 21, 255);
+    fill: currentColor;
 }
 
-.steps__h3--title {
-    margin-bottom: 24px;
-}
-
-.steps__ul{
-    list-style-type: none;
+.step {
+    display: flex;
+    align-items: flex-start;
+    margin-top: 32px;
 }
 
 .steps__description {
     display: flex;
     flex-direction: column;
-    margin-left: 36px;
-    
+    padding: 32px 0;
+    padding-left: 64px;
 }
 
-.steps__li {
+.step__description {
     display: flex;
-    margin: 20px 0 20px 0;
-    
+    flex-direction: column;
+    margin-left: 24px;
+    max-width: 320px;
 }
 
-.steps__number--wrapper {
-    padding-top: 6px;
+.step__title {
+    font-weight: 600;
+    font-size: 20px;
+    color:#243e63;
+    line-height: 1;
 }
 
-.steps__number {
-    display: flex;
-    align-items: center;
+.step__number {
     font-size: 36px;
     font-weight: 600;
     color: #cbd5e0;
     line-height: 1;
 }
 
-.steps__tagline {
-    font-size: 24px;
-}
-
-.steps__para {
+.step__para {
     margin: 16px 0 20px 0;
 }
 
