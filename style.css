@@ -621,7 +621,9 @@ VALUES ↓
 
 .value__icon--wrapper {
     border-radius: 50%;
-   
+    display: flex;
+    align-items: center;
+    justify-content: center;
     height: 36px;
     width: 36px;
 }
