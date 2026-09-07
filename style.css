@@ -1140,6 +1140,47 @@ footer {
     overflow: hidden;
 }
 
+.footer__blob--1 {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 320px;
+    height: 320px;
+    transform: translateX(-80px) translateY(-128px);
+    z-index: 1;
+    opacity: .5;
+}
+
+.footer__blob--2 {
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 320px;
+    height: 320px;
+    transform: translateX(128px) translateY(192px);
+    z-index: 1;
+    opacity: .5;
+}
+
+.footer__columns {
+
+}
+
+.footer__column {
+
+}
+
+.footer__column--link {
+
+}
+
+.footer__divider {
+
+}
+
+.footer__bottom {
+
+}
 
 /* 
 
