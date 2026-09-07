@@ -15,7 +15,7 @@ body {
 
 .row {
     width: 100%;
-    max-width: 1200px;
+    max-width: 1280px;
     margin: 0 auto;
 }
 
@@ -43,6 +43,7 @@ main {
 
 h1 {
     font-size: 48px;
+    color: #1a202c;
     line-height: 1.25;
 }
 
@@ -56,6 +57,10 @@ h1 {
     background: #6415ff;
     border-radius: 500px;
     border: none;
+}
+
+img {
+    width: 100%;
 }
 
 .section__tag {
@@ -243,7 +248,7 @@ HEADER / ABOUT US ↓
 }
 
 
-.header__row {
+header .row {
     display: flex;
     align-items: center;
     justify-content: space-between;
@@ -252,26 +257,24 @@ HEADER / ABOUT US ↓
 
 .header__description {
     width: 40%;
-    margin-right: 24px;
 }
 
-.header__img {
+.header__img--wrapper {
     width: 60%;
 }
 
-.header__tagline {
-    margin: 20px 0;
+.header__description--para {
+    margin: 32px 0;
     line-height: 1.5;
-    font-size: 16px;
+    font-size: 18px;
 }
 
-.research__img {
-    width: 720px;
-    height: 600px;
+.header__img {
+    width: 100%;
+    max-width: 768px;
 }
 
 .header__email {
-    margin-top: 32px;
     width: 100%;
     max-width: 448px;
     height: 68px;
@@ -311,7 +314,7 @@ HEADER / ABOUT US ↓
     color: #fff;
     font-weight: 700;
     font-size: 16px;
-    transition: all 100ms ease;
+    transition: all 300ms ease;
 }
 
 .btn__header:active {
@@ -320,14 +323,14 @@ HEADER / ABOUT US ↓
 }
 
 .header__customers--title {
-    margin-top: 96px;
-    font-weight: bold;
+    margin-top: 80px;
+    color: #a0aec0;
+    font-weight: 700;
     font-size: 12px;
-    opacity: .5;
+    letter-spacing: .6;
 }
 
 .logo__strip--img {
-    width: 100%;
     opacity: .5;
     margin-top: 16px;
     padding-right: 128px;
