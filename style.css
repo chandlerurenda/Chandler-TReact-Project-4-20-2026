@@ -333,6 +333,7 @@ header .row {
     font-weight: 700;
     font-size: 16px;
     transition: all 300ms ease;
+    cursor: pointer;
 }
 
 .header__email--btn:active {
@@ -988,12 +989,14 @@ TESTIMONIALS ↓
     margin: 0 12px;
     transition: all 300ms ease;
     border: none;
+    cursor: pointer;
 }
 
 .testimonial__button:hover {
     background-color: rgb(229, 231, 235);
     color: #6415ff;
 }
+
 
 .divider {
     margin-top: .75rem;
