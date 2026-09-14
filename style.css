@@ -643,6 +643,15 @@ VALUES ↓
     width: 20px;
 }
 
+.value:nth-of-type(1) {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.value:nth-of-type(2) {
+    margin-top: 32px;
+}
+
 .value:nth-child(1) .value__icon--wrapper {
     background-color: #9ae6b4;
 }
@@ -1495,6 +1504,67 @@ h1 {
     #pricing .row {
         margin-top: 40px;
     }
+
+    .section__para {
+        font-size: 14px;
+    }
+
+    .features {
+        justify-content: center;
+    }
+
+    .feature {
+        width: auto;
+        max-width: 384px;
+    }
+
+    .quality__description--container, 
+    .quality__img--container, 
+    .steps__description,
+    .steps__img--wrapper,
+    .values__description,
+    .values__img,
+    .testimonials__description,
+    .testimonials__img {
+        width: 100%;
+        max-width: 448px;
+    }
+
+    .quality__description--container,
+    .step__description,
+    .values__description,
+    .testimonials__description {
+        padding: 0;
+        margin-top: 64px;
+        text-align: center;
+    }
+
+    .step {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .step__description {
+        margin-top: 12px;
+        margin-left: 0;
+    }
+
+    .values__list {
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .value:nth-of-type(1) {
+        margin-right: 0px;
+    }
+
+    .value {
+        margin-right: 0px;
+        align-items: center;
+    }
+
+    
+
 }
 
 @media(max-width: 640px) {
