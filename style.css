@@ -386,6 +386,11 @@ FEATURES ↓
     align-items: center;
 }
 
+#features .section__para {
+    text-align: center;
+    max-width: 576px;
+}
+
 .features__container {
     margin-top: 24px;
     margin-bottom: 24px
@@ -548,9 +553,7 @@ STEPS ↓
 
 .steps__img--wrapper {
     position: relative;
-    margin-top: 12px;
-    margin-bottom: 48px;
-    padding-left: 16px;
+    display: flex;
 }
 
 
@@ -1593,7 +1596,7 @@ h1 {
         margin-top: 32px;
     }
 
-    
+
 
 }
 
@@ -1608,4 +1611,72 @@ h1 {
     main {
         margin-bottom: 80px;
     }
+
+    .header__email {
+        flex-direction: column;
+        height: auto;
+    }
+
+    .header__email--input {
+        position: static;
+        padding: 16px 0;
+        padding-left: 32px;
+        line-height: 1.5;
+    }
+
+    .header__email--btn {
+        width: 100%;
+        padding: 16px 0;
+        margin: 16px 0;
+        margin-bottom: 0px;
+        line-height: 1.5;
+    }
+
+    .header__customers--title {
+        font-size: 14px;
+        letter-spacing: .05rem;
+    }
+
+    #features .section__title,
+    #pricing .section__title {
+        font-size: 36px;
+    }
+
+    .feature__row {
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+    }
+
+    .feature__text {
+        margin-left: 0px;
+        margin-top: 16px;
+    }
+
+    .feature__title {
+        letter-spacing: .025rem;
+        line-height: 1;
+    }
+
+    .features__para {
+        margin-top: 4px;
+        line-height: 2;
+    }
+
+    #steps .section__title {
+        margin: 16px 0 0 0;
+    }
+
+    .steps__list {
+        margin-top: 48px;
+    }
+
+    .section__title {
+        font-size: 30px;
+        line-height: 1.25;
+    }
+
+
+
+
 }
